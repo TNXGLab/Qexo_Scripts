@@ -5,7 +5,10 @@
         "path": "scripts/hello-world.py",
         "author": "Abudu",
         "argv": [
-            {"name": "name", "placeholder": "你的名字"}
+            {
+                "name": "name",
+                "placeholder": "你的名字"
+            }
         ]
     },
     {
@@ -19,5 +22,11 @@
         "description": "用于通过全部的友链申请",
         "path": "scripts/pass-all-flinks.py",
         "author": "Abudu"
+    },
+    {
+        "name": "Netkeiba Horse Data",
+        "description": "通过Python爬取netkeiba.com的赛马数据",
+        "path": "scripts/netkeiba.py",
+        "author": "TiaNXianG(TNXG)"
     }
 ]
